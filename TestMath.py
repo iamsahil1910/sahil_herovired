@@ -9,7 +9,7 @@ class TestMaths(unittest.TestCase):
   def test_subtract(self):
     self.assertEqual(self.maths.subtract(10,5), 5)
   def test_multiply(self):
-    self.assertEqual(self.maths.multiply(3,7), 23)
+    self.assertEqual(self.maths.multiply(3,7), 21)
 
 
 if __name__ == "__main__":
