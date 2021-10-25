@@ -5,7 +5,7 @@ class TestMaths(unittest.TestCase):
   def setUp(self):
     self.maths = Maths()
   def test_add(self):
-    self.assertEqual(self.maths.add(4,7), 11)  
+    self.assertEqual(self.maths.add(4,7), 12)  
   def test_subtract(self):
     self.assertEqual(self.maths.subtract(10,5), 5)
   def test_multiply(self):
